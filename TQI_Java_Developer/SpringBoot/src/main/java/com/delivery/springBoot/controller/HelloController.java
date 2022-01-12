@@ -1,4 +1,4 @@
-package com.delivery.springboot.controller;
+package com.delivery.springBoot.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/")
-    public  String helloMessage(){
-        return "Hello, Digital Innovation One";
+    public String HelloMessage(){
+        return "Hello, Estou na Dio Estudando!! ";
     }
 }
